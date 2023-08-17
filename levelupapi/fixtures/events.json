@@ -1,0 +1,30 @@
+[
+  {
+    "model": "levelupapi.event",
+    "pk": 1,
+    "fields": {
+      "title": "Checkers Championship Tournament",
+      "organizer": 1,
+      "game": 1,
+      "date_time": "2023-08-15T14:00:00Z",
+      "location": "110 Walnut Dr. Nashville, TN",
+      "maker": "The Game Shop",
+      "number_of_players": 8,
+      "skill_level": "Intermediate"
+    }
+  },
+  {
+    "model": "levelupapi.event",
+    "pk": 2,
+    "fields": {
+      "title": "Dungeons and Dragons Game Night",
+      "organizer": 1,
+      "game": 2,
+      "date_time": "2023-08-18T18:30:00Z",
+      "location": "1870 Main St. Nashville, TN",
+      "maker": "The Game Shop",
+      "number_of_players": 12,
+      "skill_level": "Intermediate"
+    }
+  }
+]

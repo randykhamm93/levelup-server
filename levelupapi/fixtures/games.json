@@ -1,0 +1,26 @@
+[
+  {
+      "model": "levelupapi.game",
+      "pk": 1,
+      "fields": {
+        "title": "Checkers",
+        "creator": 1,
+        "game_type": 1,
+        "maker": "Games R Us",
+        "number_of_players": 2,
+        "skill_level": "Beginner"
+    }
+  },
+  {
+    "model": "levelupapi.game",
+    "pk": 2,
+    "fields": {
+        "title": "Dungeons and Dragons",
+        "creator": 1,
+        "game_type": 2,
+        "maker": "Games Galore",
+        "number_of_players": 1,
+        "skill_level": "Expert"
+    }
+  }
+]
