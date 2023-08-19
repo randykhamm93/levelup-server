@@ -40,16 +40,14 @@ class EventView(ViewSet):
 
         game = Event.objects.create(
             title=request.data["title"],
-            maker=request.data["maker"],
             number_of_players=request.data["number_of_players"],
             skill_level=request.data["skill_level"],
-            location=request.data['location'],
-            date_time=request.data['date_time'],
+            date=request.data['date'],
             organizer=organizer,
             game=game
         )
         serializer = EventSerializer(game)
-        return Response(serializer.data)
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
 
 
 class EventSerializer(serializers.ModelSerializer):
@@ -57,5 +55,4 @@ class EventSerializer(serializers.ModelSerializer):
     """
     class Meta:
         model = Event
-        fields = ('id', 'title', 'organizer', 'game', 'date_time',
-                  'location', 'maker', 'number_of_players', 'skill_level')
+        fields = ('id', 'title', 'organizer', 'game', 'date', 'number_of_players', 'skill_level')

@@ -8,7 +8,7 @@
         "game_type": 1,
         "maker": "Games R Us",
         "number_of_players": 2,
-        "skill_level": "Beginner"
+        "skill_level": 1
     }
   },
   {
@@ -20,7 +20,7 @@
         "game_type": 2,
         "maker": "Games Galore",
         "number_of_players": 1,
-        "skill_level": "Expert"
+        "skill_level": 2
     }
   }
 ]
